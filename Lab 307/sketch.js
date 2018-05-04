@@ -50,7 +50,6 @@ function draw() {
 
 function loadMovers(n){
   for(var i = 0; i < n; i++){
-    console.log(i);
     movers.push(new Mover(width/2, height/2, 30, i));
   }
   //m1 = new Mover(300, 300, 3, 30,-3);
