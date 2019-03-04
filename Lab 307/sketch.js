@@ -3,7 +3,6 @@ var m1;
 var movers = [];
 var attr, repl;
 var gamePaused = false;
-var sldrAV, sldrRad;
 var av, armRadius;
 var sldr;
 
@@ -28,8 +27,7 @@ function setup() {
 }
 
 function draw() {
-    av = sldrAV.value();
-    armRadius = sldrRad.value();
+    
     //var val = sldrAV.value(0, 100, 50);
     //var val = sldrRad.value(0, 800, 50);
     //background(val);
