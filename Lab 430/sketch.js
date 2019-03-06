@@ -26,7 +26,7 @@ function draw() {
 
 function mouseClicked(){
   var mouseLoc = createVector(mouseX, mouseY);
-  particleSystems.push(new particleSystem(mouseLoc, color(255, 0,0,200)));
+  particleSystems.push(new particleSystem(mouseLoc, color(255, 37, 156, 199)));
   var clr = color(random(255), random(255), random(255));
 
 }

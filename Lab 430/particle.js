@@ -19,7 +19,7 @@ function Particle(loc, clr){
 
   this.render = function(){
     stroke(127, 50, 190, this.lifespan);
-    strokeWeight(2);
+    strokeWeight(3.5);
     fill(this.clr);
     ellipse(this.loc.x, this.loc.y, 12, 12);
 

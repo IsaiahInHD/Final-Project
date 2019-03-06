@@ -19,7 +19,7 @@ function Particle(loc, clr){
   };
 
   this.render = function(){
-    strokeWeight(8.3);
+    strokeWeight(5.3);
     push();
       translate(this.loc.x, this.loc.y);
       rotate(this.angle);
