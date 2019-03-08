@@ -48,11 +48,11 @@ function Mover(x,y,r, id) {
 
 
     stroke(this.clrR, this.clrG, this.clrB);
-    line(this.loc.x  ,this.loc.y  ,attr.loc.x  , attr.loc.x );
+    line(this.loc.x, this.loc.y, attr.loc.x, attr.loc.y);
 
-    if(this === attr){
-      //fill(0, 0, 255);
-      //rect(this.loc.x, this.loc.y, this.w, this.w)
+    if(this.loc.dist(attr.loc) < 600){
+      fill(this.clrR, this.clrG, this.clrB);
+      rect(this.loc.x, this.loc.y, this.w, this.w)
     }
 
 
